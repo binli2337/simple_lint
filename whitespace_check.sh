@@ -28,7 +28,7 @@ trailing_space ()
     fi
   done
 }
-export -f trailing_space
+export  trailing_space
 
 # Find all files in the working directory, ignoring the `.git` and `docs/images` directories that
 # have trailing whitespace, and prints them to standard out.
